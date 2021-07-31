@@ -1,0 +1,32 @@
+@media only screen and (max-width:480px){
+    nav{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+     
+    .logo{
+        margin-left: 50px;
+        font-size: 35px;
+    }
+
+    .container{
+        display: block;
+    }
+    .container img , .para{
+        width: 100%;
+    }
+    .Social-media{
+        display: block;
+        font-size: 1.2rem;
+    }
+    .row{
+        display: block;
+    }
+    .col-md-1,.col-md-2,.col-md-3{
+        width: 100%;
+        margin: 10px;
+        padding: 20px;
+    }
+}

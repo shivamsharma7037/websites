@@ -1,0 +1,47 @@
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 10%;
+}
+
+.contact-img img{
+    width: 70%;
+}
+.contact-form{
+    position: relative;
+    right: 5%;
+}
+.form{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    margin: 15px;
+    /* padding: 10px; */
+}
+input{
+    font-size: 1.1rem;
+    padding: 10px;
+    height: 30px;
+    border: none;
+    color: rgb(9, 154, 250);
+    width: 250px;
+    border-bottom: 2px solid rgb(255, 208, 0);
+}
+textarea{
+    border: none;
+    color: rgb(9, 154, 250);
+    max-width: 250px;
+    border-bottom: 2px solid rgb(255, 208, 0);
+}
+
+textarea:hover,input:hover{
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 10px;
+}
+
+.name:hover{
+    border: none;
+}

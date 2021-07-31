@@ -1,0 +1,40 @@
+.item1, .item2, .item3{
+    margin: 100px 0 150px 0;
+}
+h1{
+    color: rgb(9, 154, 250);
+    font-size: 2.2rem;
+    /* padding: 0 5%; */
+    /* border-bottom: 1px solid #fff; */
+    margin: 5%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+img{
+    width: 90%;
+}
+.para{
+    width: 70%;
+}
+p{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(4, 90, 248);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 5%;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
